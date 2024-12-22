@@ -4,6 +4,7 @@ import java.lang.annotation.*;
 import java.lang.reflect.*;
 
 public class MessagingSystem {
+
     @Retention(RetentionPolicy.RUNTIME)
     @Target(ElementType.TYPE)
     public @interface UserPermission {
